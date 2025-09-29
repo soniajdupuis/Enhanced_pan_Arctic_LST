@@ -3,7 +3,7 @@
 <h2 align="center"> Guided Super-Resolution for land surface temperature datasets </h2>
 
 <p align="center">
-    Sonia Dupuis, Nando Metzger, Konrad Schindler3, Frank Goettsche, and Stefan
+    Sonia Dupuis, Nando Metzger, Konrad Schindler, Frank Goettsche, and Stefan
 Wunderle,
     
 </p>
