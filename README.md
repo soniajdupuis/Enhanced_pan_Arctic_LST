@@ -3,13 +3,13 @@
 <h2 align="center"> Guided Super-Resolution for land surface temperature datasets </h2>
 
 <p align="center">
-    <a href="https://nandometzger.github.io/"><strong>Nando Metzger</strong></a>,
-    <a href="https://rcdaudt.github.io/"><strong>Rodrigo Caye Daudt</strong></a>,
-    <a href="https://igp.ethz.ch/personen/person-detail.html?persid=143986"><strong>Konrad Schindler</strong></a>
+    Sonia Dupuis, Nando Metzger, Konrad Schindler3, Frank Goettsche, and Stefan
+Wunderle,
+    
 </p>
 
 <p align="center">
-{metzgern, rodrigo.cayedaudt, schindler}@ethz.ch, Photogrammetry and Remote Sensing, ETH Zürich
+sonia.dupuis@unibe.ch
 
 <p align="center">
 [<a href="https://arxiv.org/abs/2211.11592"><strong>Paper</strong></a>]
