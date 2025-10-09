@@ -28,9 +28,9 @@ The algorithm has been adapted from the *Guided Depth Super-Resolution by Deep A
 
 
 ## Installation
-The framework relies primarily on Torchgeo and Pytorch. The necessary librairies with all required dependencies can be installed by running
+The framework relies primarily on Torchgeo and Pytorch. The package necessary to access the ESA CCI data with the ESA CCI toolbox (https://climate.esa.int/en/data/toolbox/) are also included. The necessary librairies with all required dependencies can be installed by running
 ```bash
-conda env create -f environment.yml
+conda env create -f environment.yaml
 conda activate pytorch_pip
 ```
 ### Data
