@@ -44,10 +44,6 @@ Run the training script via
 ```bash
 python run_train.py --dataset <...> --data-dir <...> --save-dir <...>
 ```
-You can see all available training options by running 
-```bash
-python run_train.py -h
-```
 
 ## Evaluation
 
@@ -56,10 +52,7 @@ For test set evaluation, run
 ```bash
 python run_eval.py --checkpoint <...> --dataset <...> --data-dir <...>
 ```
-Again, you can query all available options by running 
-```bash
-python run_train.py -h
-```
+
 
 ## Citation
 ```
