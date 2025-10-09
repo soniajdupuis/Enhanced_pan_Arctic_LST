@@ -26,3 +26,42 @@ The algorithm has been adapted from the *Guided Depth Super-Resolution by Deep A
 - The guide is now built from digital elevation model (DEM), land cover and capoy height data
 - The algortihm has been trained on MODIS LST data availbale from the ESA LST CCI data portal. The extracted scenes used for training, validation and evaluation are available here:
 
+
+## Installation
+The framework relies primarily on Torchgeo and Pytorch. The necessary librairies with all required dependencies can be installed by running
+```bash
+conda env create -f environment.yml
+conda activate pytorch_pip
+```
+### Data
+
+The MODIS LST data used for training, validation and evaluation can be found here:
+The coarse GAC data are available here, under the variable 'LST-GAC':
+
+## Training
+
+Run the training script via
+```bash
+python run_train.py --dataset <...> --data-dir <...> --save-dir <...>
+```
+You can see all available training options by running 
+```bash
+python run_train.py -h
+```
+
+## Evaluation
+
+For test set evaluation, run
+
+```bash
+python run_eval.py --checkpoint <...> --dataset <...> --data-dir <...>
+```
+Again, you can query all available options by running 
+```bash
+python run_train.py -h
+```
+
+## Citation
+```
+EarthArxiv
+```
