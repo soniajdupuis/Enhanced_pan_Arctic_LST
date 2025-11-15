@@ -46,7 +46,7 @@ https://boris-portal.unibe.ch/entities/product/761f8e2f-fb77-4efc-beaf-d196c000f
 
 Run the training script via
 ```bash
-python run_train_geospatial.py --dataset <...> --data-dir <...> --save-dir <...>
+python run_train_geospatial.py  --save-dir <...> 
 ```
 
 ## Evaluation
@@ -54,7 +54,7 @@ python run_train_geospatial.py --dataset <...> --data-dir <...> --save-dir <...>
 For test set evaluation, run
 
 ```bash
-python run_eval_geospatial.py --checkpoint <...> --dataset <...> --data-dir <...>
+python run_eval_geospatial.py --checkpoint <...>  --output-dir <...>
 ```
 
 
