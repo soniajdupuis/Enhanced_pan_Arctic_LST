@@ -20,7 +20,7 @@ sonia.dupuis@unibe.ch
 
 
 
-Code to perform super-resolution on large-scale land surface temperatre (LST) datasets. The present use case downscales a 40-year record of AVHRR LST data (https://zenodo.org/records/13361744) from 0.05° to 0.01° across circumpolar scale.
+Code to perform guided super-resolution on large-scale land surface temperatre (LST) datasets. The present use case downscales a 40-year record of AVHRR LST data (https://zenodo.org/records/13361744) from 0.05° to 0.01° across circumpolar scale.
 The algorithm has been adapted from the *Guided Depth Super-Resolution by Deep Anisotropic Diffusion* framework available here: https://github.com/prs-eth/Diffusion-Super-Resolution/tree/main. The main changes are:
 - The workflow has been adapted to support geopspatial data, making use of the torchgeo framework
 - The guide is now built from digital elevation model (DEM), land cover and capoy height data
