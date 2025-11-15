@@ -36,8 +36,12 @@ conda activate pytorch_pip
 ### Data
 
 The MODIS LST data used for training, validation and evaluation can be found here:
+
+https://zenodo.org/records/17341544
+
 The coarse GAC data are available here, under the variable 'LST-GAC':
 
+https://boris-portal.unibe.ch/entities/product/761f8e2f-fb77-4efc-beaf-d196c000ffea
 ## Training
 
 Run the training script via
