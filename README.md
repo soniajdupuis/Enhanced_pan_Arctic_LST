@@ -3,8 +3,8 @@
 <h2 align="center"> Guided Super-Resolution for land surface temperature datasets </h2>
 
 <p align="center">
-    Sonia Dupuis, Nando Metzger, Konrad Schindler, Frank Goettsche, and Stefan
-Wunderle,
+    Sonia Dupuis, Nando Metzger, Konrad Schindler, Frank Goettsche and Stefan
+Wunderle
     
 </p>
 
@@ -13,14 +13,14 @@ sonia.dupuis@unibe.ch
 
 <p align="center">
 [<a href=><strong>Paper</strong></a>]
-[<a href=><strong>Training dataset</strong></a>]
-[<a href=><strong>Final AVHRR LST dataset</strong></a>]
+[<a href="https://zenodo.org/records/17341544"><strong>Training dataset</strong></a>]
+[<a href="https://boris-portal.unibe.ch/entities/product/761f8e2f-fb77-4efc-beaf-d196c000ffea"><strong>AVHRR LST dataset</strong></a>]
 </p>
   
 
 
 
-Code to perform super-resolution on large-scale land surface temperatre (LST) datasets. The present use case downscales a 40-year record of AVHRR LST data (https://zenodo.org/records/13361744) from 0.05° to 0.01° across circumpolar scale.
+Code to perform guided super-resolution on large-scale land surface temperatre (LST) datasets. The present use case downscales a 40-year record of AVHRR LST data (https://zenodo.org/records/13361744) from 0.05° to 0.01° across circumpolar scale.
 The algorithm has been adapted from the *Guided Depth Super-Resolution by Deep Anisotropic Diffusion* framework available here: https://github.com/prs-eth/Diffusion-Super-Resolution/tree/main. The main changes are:
 - The workflow has been adapted to support geopspatial data, making use of the torchgeo framework
 - The guide is now built from digital elevation model (DEM), land cover and capoy height data
@@ -36,13 +36,17 @@ conda activate pytorch_pip
 ### Data
 
 The MODIS LST data used for training, validation and evaluation can be found here:
+
+https://zenodo.org/records/17341544
+
 The coarse GAC data are available here, under the variable 'LST-GAC':
 
+https://boris-portal.unibe.ch/entities/product/761f8e2f-fb77-4efc-beaf-d196c000ffea
 ## Training
 
 Run the training script via
 ```bash
-python run_train.py --dataset <...> --data-dir <...> --save-dir <...>
+python run_train_geospatial.py  --save-dir <...> 
 ```
 
 ## Evaluation
@@ -50,7 +54,7 @@ python run_train.py --dataset <...> --data-dir <...> --save-dir <...>
 For test set evaluation, run
 
 ```bash
-python run_eval.py --checkpoint <...> --dataset <...> --data-dir <...>
+python run_eval_geospatial.py --checkpoint <...>  --output-dir <...>
 ```
 
 
