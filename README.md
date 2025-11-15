@@ -13,8 +13,8 @@ sonia.dupuis@unibe.ch
 
 <p align="center">
 [<a href=><strong>Paper</strong></a>]
-[<a href=><strong>Training dataset</strong></a>]
-[<a href=><strong>Final AVHRR LST dataset</strong></a>]
+[<a href="https://zenodo.org/records/17341544"><strong>Training dataset</strong></a>]
+[<a href="https://boris-portal.unibe.ch/entities/product/761f8e2f-fb77-4efc-beaf-d196c000ffea"><strong>AVHRR LST dataset</strong></a>]
 </p>
   
 
