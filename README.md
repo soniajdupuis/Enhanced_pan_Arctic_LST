@@ -60,5 +60,14 @@ python run_eval_geospatial.py --checkpoint <...>  --output-dir <...>
 
 ## Citation
 ```
-EarthArxiv
+@article{Dupuis2025,
+  author       = {Sonia Dupuis and Nando Metzger and Konrad Schindler and Frank Göttsche and Stefan Wunderle},
+  title        = {Four decades of circumpolar super-resolved satellite land surface temperature data},
+  year         = {2025},
+  eprint       = {arXiv:2511.17134},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.LG},
+  doi          = {10.48550/arXiv.2511.17134}
+}
+
 ```
