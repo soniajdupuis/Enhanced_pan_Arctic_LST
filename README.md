@@ -12,9 +12,9 @@ Wunderle
 sonia.dupuis@unibe.ch
 
 <p align="center">
-[<a href=https://arxiv.org/abs/2511.17134><strong>Paper</strong></a>]
+[<a href="https://www.nature.com/articles/s41597-026-07399-6"><strong>Paper</strong></a>]
 [<a href="https://zenodo.org/records/17341544"><strong>Training dataset</strong></a>]
-[<a href="https://boris-portal.unibe.ch/entities/product/761f8e2f-fb77-4efc-beaf-d196c000ffea"><strong>AVHRR LST dataset</strong></a>]
+[<a href="https://ieee-dataport.org/open-access/enhanced-pan-arctic-avhrr-land-surface-temperature-dataset-1km-spatial-resolution"><strong>AVHRR LST dataset</strong></a>]
 </p>
   
 
@@ -60,14 +60,17 @@ python run_eval_geospatial.py --checkpoint <...>  --output-dir <...>
 
 ## Citation
 ```
-@article{Dupuis2025,
-  author       = {Sonia Dupuis and Nando Metzger and Konrad Schindler and Frank Göttsche and Stefan Wunderle},
-  title        = {Four decades of circumpolar super-resolved satellite land surface temperature data},
-  year         = {2025},
-  eprint       = {arXiv:2511.17134},
-  archivePrefix= {arXiv},
-  primaryClass = {cs.LG},
-  doi          = {10.48550/arXiv.2511.17134}
+@article{Dupuis2026CircumpolarLST,
+  author  = {Dupuis, Sonia and Metzger, Nando and Schindler, Konrad and G{\"o}ttsche, Frank and Wunderle, Stefan},
+  title   = {Four decades of circumpolar super-resolved satellite land surface temperature data},
+  journal = {Scientific Data},
+  year    = {2026},
+  volume  = {13},
+  pages   = {1048},
+  doi     = {10.1038/s41597-026-07399-6},
+  url     = {https://doi.org/10.1038/s41597-026-07399-6},
+  issn    = {2052-4463},
+  publisher = {Nature Publishing Group}
 }
 
 ```
